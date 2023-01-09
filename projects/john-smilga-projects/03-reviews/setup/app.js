@@ -96,7 +96,7 @@ nextBtn.addEventListener("click", function () {
 })
 
 randomBtn.addEventListener("click", function() {
-  currentItem = Math.floor(Math.random()*4);
+  currentItem = Math.floor(Math.random()* 4);
   changeContent();
 })
 
