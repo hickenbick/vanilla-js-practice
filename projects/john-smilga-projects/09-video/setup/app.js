@@ -4,6 +4,11 @@
 
 const btn = document.querySelector(".switch-btn") 
 const video = document.querySelector(".video-container");
+const preloader = document.querySelector(".preloader")
+
+addEventListener("load", function(event) {
+  preloader.classList.add("hide-preloader")
+})
 
 btn.addEventListener("click", function() {
     if(btn.classList.contains("slide")){
